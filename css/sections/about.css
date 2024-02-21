@@ -1,0 +1,85 @@
+.about-us{
+    display: flex;
+    overflow: hidden;
+    min-height: 720px;
+}
+.about-us__image{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-white);
+    position: relative;
+}
+.about-us__image div{
+    padding: 32px 64px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about-us__image-suchi3{
+    border-bottom: 8px solid var(--color-creamson) ;
+    background-image: url("../../assets/about_bg1.png");
+}
+.about-us__image-suchi2{
+    
+    background-image: url("../../assets/about_bg2.png");
+}
+.about-us__image-suchi3 img{
+    width: 225px;
+    height: 200px;
+}
+.about-us__image-suchi2 img{
+    width: 225px;
+    height: 200px;
+}
+.about-us__button{
+    position: absolute;
+    right: 0;
+    padding:12px 32px ;
+    border-radius: 32px 0 0 32px;
+    outline: 0;
+    border: 0;
+    background-color: black;
+    color: white;
+    min-height:70px ; 
+   line-height: 20px;
+    cursor: pointer;
+    padding-bottom: 1px;
+    min-width: 100px;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 500;
+    font-size: 16px;
+}
+.about-us__button img{
+    object-fit: contain;
+    margin-left: 32px;
+}
+
+.about-us__content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    flex-direction: column;
+}
+.about-us__subtitle{
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.about-us__content h3{
+    font-size: 60px;
+    padding-bottom: 20px;
+    
+}
+.about-us__content .suchi__description{
+  line-height: 30px;
+}
+
+
+
+
